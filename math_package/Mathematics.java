@@ -20,17 +20,19 @@ public class Mathematics {
         // int sum = prefixSum.PrefixSumRangeQueryGP(arr, 2, 4, 2);
         // System.out.println("Sum: "+sum);
 
-        PartialSum partialSum = new PartialSum();
-        List<List<Integer>> pairs = Arrays.asList(
-                Arrays.asList(2,4,1),
-                Arrays.asList(1,5,3),
-                Arrays.asList(0,2,2));
-        int[] arr = {0,0,0,0,0,0};
-        int[] partial_sum = partialSum.getPartialSum(arr, pairs);
-        for (int i = 0; i < partial_sum.length; i++) {
-            System.out.print(partial_sum[i]+" ");
-        }
-        System.out.println();
+        // PartialSum partialSum = new PartialSum();
+        // List<List<Integer>> pairs = Arrays.asList(
+        //         Arrays.asList(2,4,1),
+        //         Arrays.asList(1,5,3),
+        //         Arrays.asList(0,2,2));
+        // int[] arr = {0,0,0,0,0,0};
+        // int[] partial_sum = partialSum.getPartialSum(arr, pairs);
+        // for (int i = 0; i < partial_sum.length; i++) {
+        //     System.out.print(partial_sum[i]+" ");
+        // }
+        // System.out.println();
+
+        
         
     }
 }
